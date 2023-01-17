@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(19, 2, 51);
+}
+.nav li {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  margin: 50px auto;
+  border-radius: 5px;
+  box-shadow: 2px 1px 2px 1px #000;
+  text-align: block;
+}
+
+.pages {
+  width: 12em;
+  height: 70px;
+  background-color: rgb(116, 115, 129);
+  text-align: center;
+  color: #c3c3c5;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.2em;
+  font-weight: 600;
+  border-radius: 8px;
+  margin: 15px;
+}
+
+.pages:hover {
+  background-color: rgb(203, 202, 213);
+  border: 1px solid rgb(105, 106, 110);
+  color: #13112c;
+  transition-duration: 2s;
+  font-size: 1.1em;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  color: #e5e5e5;
+}
+
+.circle {
+  background-color: rgb(43, 47, 65);
+  max-width: 12rem;
+  border-radius: 50%;
+  font-size: 1.2em;
+  margin: 15px;
+  margin-left: -150px;
+}
+
+.blur {
+  margin-left: 140px;
+  background-color: rgb(34, 39, 61);
+  color: rgb(240, 157, 126);
+}
+
+.counter button {
+  background-color: rgb(92, 87, 166);
+  color: #e7e7e7;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  transition-duration: 0.3s;
+}
+
+.counter button:hover {
+  border: none;
+  box-shadow: 1px 0 1px 2px#e5e5e5;
+}
+
+.input {
+  background-color: #e5e5e5;
+  padding: 10px;
+  margin: 0;
+  border-radius: 5px;
+}
+
+.notfound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  color:rgb(240, 157, 126);
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: 5px;
+  max-width: 20rem;
+}
+
+#rbtn{
+  padding: 15px;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 0 3px 5px 2px rgb(17, 17, 25);
+}
+
+@media screen and (max-width: 720px) {
+  .nav li {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav ul {
+    margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: 2px 1px 2px 1px #000;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .pages {
+    font-size: 1em;
+    font-weight: 700;
+    border-radius: 8px;
+    margin: 5 auto;
+  }
+
+  .pages:hover {
+    background-color: rgb(25, 24, 24);
+    color: #e5e5e5;
+    transition-duration: 0.8s;
+    font-size: 1em;
+  }
+
+  .circle {
+    background-color: rgb(43, 47, 65);
+    font-size: .7em;
+    margin: 10px;
+    margin-left: -80px;
+    max-width: 10rem;
+    border-radius: 50%;
+  }
+
+  .btn{
+    display: flex;
+    flex-direction: column;
+  }
+
+  button {
+    border-radius: 7px;
+    margin: 3px;
+  }
+
+}
