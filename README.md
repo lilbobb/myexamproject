@@ -2,6 +2,8 @@
 
 This project was built with [Create React App](https://github.com/facebook/create-react-app).
 
+MY PROJECT LINK [CounterApp](myexamproject-c24gifelh-lilbobb.vercel.app)
+
 
 ##INTRODUCTION
 A counter app is a simple tool that allows users to keep track of a numerical value. this counter app focuses on 4 different functions: increment, decrement, reset, and setting the value using both the custom hook and useReducer hook.
